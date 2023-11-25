@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+body{
+     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*header*/
+
+header{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+.header-container{
+    margin: auto;
+    max-width: 1700px;
+}
+
+header a{
+    color: white;
+    text-decoration: none; /*quitar el subrayado*/ 
+    padding:0 1.2rem;
+}
+header a:hover{
+    background-color: rgba(56, 54, 54, 0.989)
+}
+
+h1{
+    display: inline;
+}
+
+nav{
+    float: right;
+    margin: 10px;
+}
+
+header li{
+    display: inline;
+    list-style: none;
+}
+
+.filtro-container{
+    margin-top: 60px;
+}
+
+.ordenarLabel{
+    color: white;
+
+}
+
+.filtrarLabel{
+    color: white;
+
+}
+
+.buscar{
+    text-align: left;
+    width: 800px;
+    padding: 8px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos del contenedor */
+}
+
+.buscar label {
+    border-bottom: 1px solid #ccc; /* Agrega una línea inferior al label */
+    padding-bottom: 4px; /* Ajusta el espacio entre el label y el input */
+    margin-right: 10px; /* Ajusta el espacio entre el label y el input */
+  }
+
+.buscar i{
+    font-size: 20px;
+    margin-right: 1rem;
+    color: white;
+   
+}
+ 
+#buscarNombre{
+    background-color: transparent;
+    color: white;
+    width: 100%; /* Haz que el input ocupe el espacio restante */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border: none; 
+}
+
+#buscarNombre:focus{
+    outline: none;
+
+}
+
+.productos-container{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+    justify-content: space-between; 
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.producto {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 600px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto del elemento */
+}
+
+/* Agrega estilos para el modal y el contenedor de fondo oscuro */
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+#modal-nombre,
+#modal-descripcion,
+#modal-cantidad,
+#modal-precio {
+    color: black;
+}
+/* Agrega estilos adicionales según sea necesario */

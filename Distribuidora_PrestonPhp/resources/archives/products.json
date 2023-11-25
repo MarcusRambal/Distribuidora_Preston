@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1,
+        "nombre": "Sidney1084",
+        "imagen": "../resources/images/Sidney1084.jpg",
+        "descripcion": "Sidney color blanco",
+        "cantidad": 50,
+        "precio": 15,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 2,
+        "nombre": "Sideney1152",
+        "imagen": "../resources/images/Sidney1152.jpg",
+        "descripcion": "Sidney color negro",
+        "cantidad": 30,
+        "precio": 25,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 3,
+        "nombre": "Sidney2048",
+        "imagen": "../resources/images/Sidney2048.jpg",
+        "descripcion": "Sidney color beach.",
+        "cantidad": 20,
+        "precio": 20,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 4,
+        "nombre": "Sidney2157",
+        "imagen": "../resources/images/Sidney2157.jpg",
+        "descripcion": "Sidney color arena",
+        "cantidad": 40,
+        "precio": 34.99,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 5,
+        "nombre": "Sidney2501",
+        "imagen": "../resources/images/Sidney2501.jpg",
+        "descripcion": "Sidney color amarillo",
+        "cantidad": 15,
+        "precio": 30,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 6,
+        "nombre": "Sidney3675",
+        "imagen": "../resources/images/Sidney3175.jpg",
+        "descripcion": "Sidney color morado",
+        "cantidad": 60,
+        "precio": 18,
+        "categoria": "Cuerina"
+    }, 
+    {
+        "id": 7,
+        "nombre": "Sidney3182",
+        "imagen": "../resources/images/Sidney3182.jpg",
+        "descripcion": "Sidney color morado pastel",
+        "cantidad": 60,
+        "precio": 18,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 8,
+        "nombre": "Sidney3201",
+        "imagen": "../resources/images/Sidney3201.jpg",
+        "descripcion": "Sidney piel",
+        "cantidad": 35,
+        "precio": 20,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 9,
+        "nombre": "Sidney3231",
+        "imagen": "../resources/images/Sidney3231.jpg",
+        "descripcion": "Sidney color rosado pastel",
+        "cantidad": 75,
+        "precio": 14,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 10,
+        "nombre": "Sidney3204",
+        "imagen": "../resources/images/Sidney3204.jpg",
+        "descripcion": "Sidney color rosado",
+        "cantidad": 80,
+        "precio": 12,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 11,
+        "nombre": "Sidney3230",
+        "imagen": "../resources/images/Sidney3230.jpg",
+        "descripcion": "Sidney color piel",
+        "cantidad": 90,
+        "precio": 40,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 12,
+        "nombre": "Sidney3321",
+        "imagen": "../resources/images/Sidney3321.jpg",
+        "descripcion": "Sidney color naranja",
+        "cantidad": 67,
+        "precio": 18,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 13,
+        "nombre": "Sidney3397",
+        "imagen": "../resources/images/Sidney3397.jpg",
+        "descripcion": "Sidney color fucsia",
+        "cantidad": 60,
+        "precio": 20,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 14,
+        "nombre": "SidneyZenit800TN",
+        "imagen": "../resources/images/SidneyZenit800TN.jpg",
+        "descripcion": "Sidney color negro",
+        "cantidad": 80,
+        "precio": 18,
+        "categoria": "Cuerina"
+    },
+    {
+        "id": 15,
+        "nombre": "Sidney362",
+        "imagen": "../resources/images/Sidney362.jpg",
+        "descripcion": "Sidney color rojo",
+        "cantidad": 60,
+        "precio": 20,
+        "categoria": "Cuero"
+    },
+    {
+        "id": 16,
+        "nombre": "Sidney5118",
+        "imagen": "../resources/images/Sidney5118.jpg",
+        "descripcion": "Sidney color azul marino",
+        "cantidad": 90,
+        "precio": 10,
+        "categoria": "Cuero"
+    },
+    {
+        "id": 17,
+        "nombre": "Sidney2372",
+        "imagen": "../resources/images/Sidney2372.jpg",
+        "descripcion": "Sidney color marron",
+        "cantidad": 75,
+        "precio": 10,
+        "categoria": "Cuero"
+    },
+    {
+        "id": 18,
+        "nombre": "Sidney6172",
+        "imagen": "../resources/images/Sidney6172.jpg",
+        "descripcion": "Sidney color marron",
+        "cantidad": 75,
+        "precio": 10,
+        "categoria": "Cuero"
+    },
+    {
+        "id": 19,
+        "nombre": "Sidney6506",
+        "imagen": "../resources/images/Sidney6506.jpg",
+        "descripcion": "Sidney color marron con manchas",
+        "cantidad": 75,
+        "precio": 10,
+        "categoria": "Cuero"
+    },
+    {
+        "id": 20,
+        "nombre": "Sidney800TN",
+        "imagen": "../resources/images/Sidney800TN.jpg",
+        "descripcion": "Sidney color negro",
+        "cantidad": 100,
+        "precio": 10,
+        "categoria": "Cuero"
+    }
+    
+]

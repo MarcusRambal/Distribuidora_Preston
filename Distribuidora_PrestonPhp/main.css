@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*header*/
+
+header{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+.header-container{
+    margin: auto;
+    max-width: 1700px;
+}
+
+header a{
+    color: white;
+    text-decoration: none; /*quitar el subrayado*/ 
+    padding:0 1.2rem;
+}
+header a:hover{
+    background-color: rgba(56, 54, 54, 0.989)
+}
+
+h1{
+    display: inline;
+}
+
+nav{
+    float: right;
+    margin: 10px;
+}
+
+header li{
+    display: inline;
+    list-style: none;
+}
+
+/*Presentation*/
+
+.presentation{
+    height: 720px;
+    font-size: 25px;
+}
+
+.presentation-video{
+    height: 720px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.presentation-video video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+
+}
+.presentation-content{
+    color: white;
+    text-align: center;
+    padding: 285px 0;
+    margin: auto;
+}
+
+/*Inicio*/ 
+
+.products{
+    height: 100px;
+    font-size: 18;
+}
+/*Sobre Nosotros*/
+.aboutus{
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size:25px;
+
+}
+
+.team{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    background-color: #020302;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*phone*/
+@media screen and (max-width: 768px) {
+    #linea1, #linea2, #opciones {
+        width: 90%; /* Ajusta el ancho para pantallas más pequeñas /
+    }
+
+    #calcularButton {
+        width: 60%; / Ajusta el ancho para pantallas más pequeñas */
+    }
+}

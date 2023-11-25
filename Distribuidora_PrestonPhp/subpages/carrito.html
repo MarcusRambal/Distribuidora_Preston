@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <header>  
+        <div class="header-container">
+            <h1><a href ="../index.php">Distribuidora Preston</a></h1> <!--Direcciona a la pagina Principal-->
+            <nav>
+                <ul>  <!--Main menu-->                 
+                    <li><a href="/distribuidora_prestonPhp/subpages/Products.php">Productos</a></li>     
+                    <li><a href="/distribuidora_prestonPhp/subpages/Uses.html">Usos</a></li>                 
+                    <li><a href="#aboutus">Sobre nosotros</a></li>
+                    <li><a href="#endpage">Contacto</a></li>    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="carrito-container" class="carrito-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio unitario</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+        </table>
+
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        <a href="checkout.php"><button>Proceder al Pago</button></a>
+    </div>
+    <script src="carrito.js"></script>
+</body>
+</html>
